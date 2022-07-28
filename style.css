@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+/*                          -----------------                Hero Section           ------------------                  */
+#hero-section { 
+    /*background*/  
+    background-image: url("HD\ wallpaper\ teal\ sea\,\ sand\,\ beach\,\ palm\ trees\,\ shore\,\ summer\,\ paradise\,\ palms.jpg");
+    background-size:cover;
+    /*width and height*/
+    width: auto;
+    height: 900px;
+    /*margin and padding*/   
+    margin-bottom: 0;
+    padding: 40px;
+    /*font*/
+    font-family: TradeWinds-Regular;
+}
+/*                               -------------          flexbox for header      ----------------------                  */
+.hero-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+#first-head {
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color:#F6F6F6;
+    font-size: 70px;
+} 
+
+#seccond-head {
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color:#F2DF3A;
+}
+
+/*             -----------                           Activity section                 ---------------                    */
+
+#active-section {
+    margin: 0;
+    background-color:#EAF6F6;
+}
+
+/*                       ---------------------------  Active title     ------------------------                        */
+
+#active-title {
+    margin: 0;
+    padding: 10px 30px;
+    font-family:TradeWinds-Regular ;
+    background-color: #F2DF3A;
+    border-radius: 6px;
+}
+
+#active-body {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    
+}
+
+.activites {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Raddisson{
+margin-bottom: 4px;
+
+}
+
+img {  
+    width: 300px;
+    border-radius: 15px 50px 30px;
+}
+
+
+
+h4 {    
+    padding: 10px 30px;
+    background-color: #3AB4F2;
+}
+
+#mohamed {
+    width: 150px;
+    border-radius: 15px;
+
+}
+.business-card {
+    display: block;
+    display: flex;
+    margin: 0px auto;
+    width: 400px;
+        padding: 20px;
+        justify-content:space-around;
+        text-align: center;
+        color: #2b2839;
+        background-color: #ddebf8;
+        border-bottom: 5px solid #d8cefe;
+}
+
+
+/*font face*/
+@font-face {
+    src: url("TradeWinds-Regular.ttf");
+    font-family:TradeWinds-Regular;
+}
